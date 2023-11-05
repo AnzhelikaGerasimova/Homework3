@@ -2,10 +2,11 @@ package Task2;
 
 public class MultTable {
     public static void main(String[] args) {
-        for (int number1 = 1; number1 < 10; number1++) {
-            for (int number2 = 1; number2 < 10; number2++) {
-                System.out.println(number1 + " x " + number2 + " = " + number1 * number2);
+        for (int multiplicand1 = 1; multiplicand1 < 10; multiplicand1++) {
+            for (int multiplicand2 = 1; multiplicand2 < 10; multiplicand2++) {
+                System.out.printf("%4d", multiplicand1 * multiplicand2);
             }
+            System.out.println();
         }
     }
 }
